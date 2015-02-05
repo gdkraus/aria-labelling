@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset='utf-8'>
+	<title>ARIA Labelling Techniques Test</title>
+</head>
+
+<body>
+<h1>aria-label</h1>
+<div aria-label="you are reading the aria-label of the div">div</div>
+<span aria-label="you are reading the aria-label of the span">span</span>
+<p aria-label="you are reading the aria-label of the p">p</p>
+<h2 aria-label="you are reading the aria-label of the h2">h2</h2>
+<a aria-label="you are reading the aria-label of the a" href="#">a</a>
+
+<h1>aria-labelledby</h1>
+<div aria-labelledby="al1">div</div><p id="al1">you are reading the aria-labelledby of the div</p>
+<span aria-labelledby="al2">span</span><p id="al2">you are reading the aria-labelledby of the span</p>
+<p aria-labelledby="al3">p</p><p id="al3">you are reading the aria-labelledby of the p</p>
+<h2 aria-labelledby="al4">h2</h2><p id="al4">you are reading the aria-labelledby of the h2</p>
+<a aria-labelledby="al5" href="#">a</a><p id="al5">you are reading the aria-labelledby of the a</p>
+
+<h1>aria-describedby</h1>
+<div aria-describedby="ad1">div</div><p id="ad1">you are reading the aria-labelledby of the div</p>
+<span aria-describedby="ad2">span</span><p id="ad2">you are reading the aria-labelledby of the span</p>
+<p aria-describedby="ad3">p</p><p id="ad3">you are reading the aria-labelledby of the p</p>
+<h2 aria-describedby="ad4">h2</h2><p id="ad4">you are reading the aria-labelledby of the h2</p>
+<a aria-describedby="ad5" href="#">a</a><p id="ad5">you are reading the aria-labelledby of the a</p>
+
+<h1>aria-label user focusable</h1>
+<div aria-label="you are reading the aria-label of the div" tabindex="0">div</div>
+<span aria-label="you are reading the aria-label of the span" tabindex="0">span</span>
+<p aria-label="you are reading the aria-label of the p" tabindex="0">p</p>
+<h2 aria-label="you are reading the aria-label of the hf2" tabindex="0">h2</h2>
+<a aria-label="you are reading the aria-label of the a" href="#" tabindex="0">a</a>
+
+<h1>aria-labelledby user focusable</h1>
+<div aria-labelledby="alf1" tabindex="0">div</div><p id="alf1" tabindex="0">you are reading the aria-labelledby of the div</p>
+<span aria-labelledby="alf2" tabindex="0">span</span><p id="alf2" tabindex="0">you are reading the aria-labelledby of the span</p>
+<p aria-labelledby="alf3" tabindex="0">p</p><p id="alf3" tabindex="0">you are reading the aria-labelledby of the p</p>
+<h2 aria-labelledby="alf4" tabindex="0">h2</h2><p id="alf4" tabindex="0">you are reading the aria-labelledby of the h2</p>
+<a aria-labelledby="alf5" href="#" tabindex="0">a</a><p id="alf5" tabindex="0">you are reading the aria-labelledby of the a</p>
+
+<h1>aria-describedby user focusable</h1>
+<div aria-describedby="adf1" tabindex="0">div</div><p id="adf1" tabindex="0">you are reading the aria-labelledby of the div</p>
+<span aria-describedby="adf2" tabindex="0">span</span><p id="adf2" tabindex="0">you are reading the aria-labelledby of the span</p>
+<p aria-describedby="adf3" tabindex="0">p</p><p id="adf3" tabindex="0">you are reading the aria-labelledby of the p</p>
+<h2 aria-describedby="adf4" tabindex="0">h2</h2><p id="adf4" tabindex="0">you are reading the aria-labelledby of the h2</p>
+<a aria-describedby="adf5" href="#" tabindex="0">a</a><p id="adf5" tabindex="0">you are reading the aria-labelledby of the a</p>
+
+</body>
+
+</html>
